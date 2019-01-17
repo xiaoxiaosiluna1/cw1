@@ -88,11 +88,16 @@ int main(){
                     carID =l;
                 }
             }
-            printf("yonghudangqianweizhiyudi%dgechedejuliwei%lf,hizixiaojuli\n",carID+1,min);
+            printf("yonghudangqianweizhiyudi%dgechedejuliwei%lf,hezuixiaojuli\n",carID+1,min);
             printf("\ndianjihuichejixu\n");
             char xx;
             scanf("%c",&xx);
             scanf("%c",&xx);
+        }
+        if(code==5)
+        {
+            printf("yingyongyijingtuichu\n");
+            break;
         }
     }
     return 0;
