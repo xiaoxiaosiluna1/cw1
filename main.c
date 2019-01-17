@@ -56,6 +56,18 @@ int main(){
 
             }
         }
+        if(code==3)
+        {
+            printf("suoyoucheliangweizhiruxia\n");
+            for(int i=0;i <index; i++)
+            {
+                printf("di%dgecheliangdeweizhiwei(%d,%d)\n",i+1,arr[i].y);
+            }
+            printf("\ndianjihuichejixu\n");
+            char xx;
+            scanf("%c",&xx);
+            scanf("%c",&xx);
+        }
     }
     return 0;
    
