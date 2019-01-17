@@ -68,6 +68,32 @@ int main(){
             scanf("%c",&xx);
             scanf("%c",&xx);
         }
+        if(code==4)
+        {
+            printf("qingshurudangqiianweizhizuobiao:\n");
+            int x;
+            int y;
+            scanf("%d",&x);
+            scanf("%d",&x);
+            double min = 100000;
+            int carID =0;
+            for(int i=0;i<index;i++)
+            {
+                int dx =x-arr[i].x;
+                int dy =y-arr[i].y;
+                double l = sqrt (dx*dx+dy*dy);
+                if(min>l)
+                {
+                    min = l;
+                    carID =l;
+                }
+            }
+            printf("yonghudangqianweizhiyudi%dgechedejuliwei%lf,hizixiaojuli\n",carID+1,min);
+            printf("\ndianjihuichejixu\n");
+            char xx;
+            scanf("%c",&xx);
+            scanf("%c",&xx);
+        }
     }
     return 0;
    
